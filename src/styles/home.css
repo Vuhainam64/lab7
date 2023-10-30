@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0 50px;
+}
+
+.card {
+    width: 250px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+}
+
+.card .card-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 15px 0;
+}
+
+.card .details-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.card .details-button:hover {
+    background-color: #0056b3;
+}
+
+.card .card-title {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.card .card-year,
+.card .card-nation {
+    margin-bottom: 10px;
+    color: #666;
+}
